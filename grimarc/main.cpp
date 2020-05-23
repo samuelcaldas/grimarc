@@ -28,7 +28,7 @@
 #include "ARCFile.h"
 #include "lz4\lz4.h"
 
-#define GRIMARC_VERSION_STRING "1.0.1 [B21]"
+//#define GRIMARC_VERSION_STRING ""
 
 /**
  * @brief Application entry point.
@@ -41,7 +41,7 @@
 int __cdecl main(int argc, char* argv[])
 {
     printf_s("============================================================\n");
-    printf_s("Grim Dawn ARC Extractor (grimarc) by atom0s\nContact : atom0s@live.com\nVersion : "GRIMARC_VERSION_STRING"\n");
+    printf_s("Grim Dawn ARC Extractor (grimarc) by atom0s\nContact : atom0s@live.com\nVersion : 1.0.1 [B21]\n");
     printf_s("============================================================\n\n");
 
     // To allow drag and drop we must alter the working folder..
